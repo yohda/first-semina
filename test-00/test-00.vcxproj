@@ -119,6 +119,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="test.c" />
+    <ClCompile Include="_bit.c" />
     <ClCompile Include="_enum.c" />
     <ClCompile Include="_inline.c" />
     <ClCompile Include="_macro.c" />
