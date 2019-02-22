@@ -119,6 +119,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="test.c" />
+    <ClCompile Include="_enum.c" />
+    <ClCompile Include="_inline.c" />
+    <ClCompile Include="_macro.c" />
+    <ClCompile Include="_pragma.c" />
+    <ClCompile Include="_main_return_value.c" />
+    <ClCompile Include="_struct_bit_field.c" />
+    <ClCompile Include="_typedef.c" />
+    <ClCompile Include="_volatile.c" />
+    <ClCompile Include="__shift.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_network.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

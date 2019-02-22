@@ -68,32 +68,32 @@ char* inet_ntoa(_uInt _ip); // 네트워크 바이트 순서의 32비트 값을 Dotted-Decimal
 	비트연산은 정수 계통 자료형에만 사용이 가능하다.
 	더블형은 불가능하다.
 */
-int main(int argc, char** argv)
-{
-	/*printf("%d\n", &(han.name));
-	printf("%d\n", &(han.age));
-	printf("%d\n", &(han.addr));
-	printf("%d\n", &(han.num));*/
-
-	// IP를 저장한다고 하면...?
-	// 내 프로세서는 리틀 엔디안 설계인 것 같다.
-	//const int n = 0x44434241; // 01000100(68) 01000011(67) 01000010(66) 01000001(65)
-
-	//printf("n의 주소: %d\n", &n);
-	//printf("n의 첫번째 주소: %d, %c\n", &((char)n) + 0, (char)n + 0); // A
-	//printf("n의 두번째 주소: %d, %c\n", &((char)n) + 1, (char)n + 1); // B
-	//printf("n의 세번째 주소: %d, %c\n", &((char)n) + 2, (char)n + 2); // C
-	//printf("n의 네번째 주소: %d, %c\n", &((char)n) + 3, (char)n + 3); // D
-	
-	/*printf("max int: %d\n", getMaxInt());
-	printf("unsigned int:%u\n", getMaxUnsignedInt());*/
-	
-	// 0001(1) 1100(C) 0010(2) 1111(F) 0011(3) 0010(2) 1010(A) 0011(3)  
-	unsigned int n = 1;
-	
-	inputIPAddress();
-	return 0;
-}
+//int main(int argc, char** argv)
+//{
+//	/*printf("%d\n", &(han.name));
+//	printf("%d\n", &(han.age));
+//	printf("%d\n", &(han.addr));
+//	printf("%d\n", &(han.num));*/
+//
+//	// IP를 저장한다고 하면...?
+//	// 내 프로세서는 리틀 엔디안 설계인 것 같다.
+//	//const int n = 0x44434241; // 01000100(68) 01000011(67) 01000010(66) 01000001(65)
+//
+//	//printf("n의 주소: %d\n", &n);
+//	//printf("n의 첫번째 주소: %d, %c\n", &((char)n) + 0, (char)n + 0); // A
+//	//printf("n의 두번째 주소: %d, %c\n", &((char)n) + 1, (char)n + 1); // B
+//	//printf("n의 세번째 주소: %d, %c\n", &((char)n) + 2, (char)n + 2); // C
+//	//printf("n의 네번째 주소: %d, %c\n", &((char)n) + 3, (char)n + 3); // D
+//	
+//	/*printf("max int: %d\n", getMaxInt());
+//	printf("unsigned int:%u\n", getMaxUnsignedInt());*/
+//	
+//	// 0001(1) 1100(C) 0010(2) 1111(F) 0011(3) 0010(2) 1010(A) 0011(3)  
+//	unsigned int n = 1;
+//	
+//	inputIPAddress();
+//	return 0;
+//}
 
 /*
 	짝수 * 짝수 = 짝수

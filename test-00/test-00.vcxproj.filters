@@ -18,5 +18,37 @@
     <ClCompile Include="test.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="_typedef.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_enum.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_volatile.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_pragma.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_macro.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_inline.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_main_return_value.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_struct_bit_field.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="__shift.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_network.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
