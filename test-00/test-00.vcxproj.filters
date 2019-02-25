@@ -42,10 +42,16 @@
     <ClCompile Include="_struct_bit_field.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="__shift.c">
+    <ClCompile Include="_bit.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_bit.c">
+    <ClCompile Include="_short_circuit.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_shift.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_const.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
